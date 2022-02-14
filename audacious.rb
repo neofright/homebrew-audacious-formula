@@ -19,13 +19,6 @@ class Audacious < Formula
     regex(/href=.*?audacious[._-]v?(\d+(?:\.\d+)+)\.t/i)
   end
 
-  bottle do
-    sha256 arm64_big_sur: "819afa4489c4f26017ce6966291d3b82b859ceb96476edf963973d4b75c010a8"
-    sha256 big_sur:       "8b29082bd4c5dd088db4d990b1c965f80022037e7b8f4cd5abcf0fbd111211fe"
-    sha256 catalina:      "7f7bea293e9f75013b2dd6dbf376644578a35165f2cb7e84a2c2634971a3bf9c"
-    sha256 x86_64_linux:  "a5883bc3e84402141c2e0effac40850fd8ca91f71ef33ac3f4140741e1349f1e"
-  end
-
   head do
     url "https://github.com/audacious-media-player/audacious.git"
 
